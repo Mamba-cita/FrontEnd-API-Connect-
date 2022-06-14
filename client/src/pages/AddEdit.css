@@ -1,0 +1,63 @@
+input[type="text"],
+input[type="age"],
+input[type="city"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.lable {
+  font-size: 15px;
+  font-weight: bold;
+  position: relative;
+  left: 150px;
+  color: black;
+  padding: 7px;
+  border-radius: 5px;
+  border: 1px solid aqua;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:focus {
+  outline: none;
+}
+
+input[type="submit"]:hover {
+  background-color: plum;
+}
+
+input[type="button"] {
+  width: 100%;
+  background-color: gray;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="button"]:focus {
+  outline: none;
+}
+
+input[type="button"]:hover {
+  background-color: plum;
+}
+/*# sourceMappingURL=AddEdit.css.map */
